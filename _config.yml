@@ -1,10 +1,13 @@
 # Site
-title:              Moon
-bio:                'Hello.'
-description:        "Hello."
+title:              Jane Doe
+bio:                'Science by day. Stories by night.'
+description:        "I'm a second-year PhD student at X, focusing on the genetics and epigenetics of cancer. I spend half my days at the bench, and half at the computer. Prior to this, I worked in a next-generation sequencing facility. I hold a BSc in Neuroscience from Y and an MPhil in Computational Biology from the University of Cambridge. If you'd like to know more about my research you can check it out here.
+<br>
+<br>
+Outside of my research, I am an aspiring journalist with a deep interest in tech and travel. I founded the X magazine. I'm also passionate about STEM outreach and I write about science for my <a href="http://www.trinitynews.ie">university newspaper</a>"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/scipic-big.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -26,7 +29,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+#disqus_shortname:   taylantatli
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -38,18 +41,18 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           username
-github:             username
+#twitter:            username
+#facebook:           username
+github:             cobri
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
@@ -68,7 +71,7 @@ gems:
   - jekyll-gist
 
 jekyll-mentions:
-    base_url: https://cobri.github.io
+    base_url: https://github.com
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
